@@ -1,0 +1,5 @@
+### Explain the concept of Single Page Application
+
+    - A Single-Page Application (SPA) is a web app that delivers the entire page shell (HTML, CSS, JavaScript) once, then rewrites portions of the DOM in place as the user navigates, rather than asking the browser to fetch a brand-new document for every click. After the first load, further interactions send or receive only data—typically JSON—so screen transitions feel as instant and fluid as a desktop or mobile app.
+
+    - Because the browser never performs a full refresh, SPAs avoid the flash of blank white screens, maintain UI elements that don’t change (headers, sidebars), and cut network traffic to the minimum bytes required for each action. The result is faster perceived performance, lower bandwidth, and a smoother user experience that keeps bounce rates down—crucial for commerce and productivity sites alike.
