@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Task } from './interface/task';
+import { HttpClient } from '@angular/common/http';
+import { Observable, map} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +11,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-a3';
+  
+    
+  
 }
